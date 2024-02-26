@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "TwitterChirpExtendedHeavy","Segoe UI", Helvetica,Arial,sans-serif;
+}
+body{
+    background-color: rgb(75, 92, 107);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: auto;
+    width: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-radius: 18px;
+}
+.fa-x-twitter{
+    color: white;
+    font-size:40px;
+}
+h2{
+    color: white;
+    margin-top: 30px;
+}
+.icon{
+    position: relative;
+    top: 35px;
+    left: 55px;
+    font-size: larger;
+}
+.fa-apple{
+    font-size:x-large;
+}
+p{
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    background-color: white;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type=text]{
+    background-color: transparent;
+    border:1px solid rgb(75, 75, 75);
+    border-radius: 4px;
+    padding: 15px 10px;
+    width: 310px;
+    margin-bottom: 20px;
+}
+input[type=text]::placeholder{
+    font-size: 17px;
+}
+input{
+    width: 310px;
+}
+.forgot{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 0px;
+    margin-top: 25px;
+
+}
+.signup{
+    color: rgb(75, 75, 75);
+    margin: 40px 0px 60px 0px;
+}
+.signup a{
+    text-decoration: none;
+    color: rgb(29, 155, 240);
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 15px 0px;
+}
+.line{
+    height: 1px;
+    width: 140px;
+    background-color: rgb(75, 75, 75);
+}
+.one{
+    position: relative;
+    right: 10px;
+}
+.two{
+    position: relative;
+    left: 10px;
+}
